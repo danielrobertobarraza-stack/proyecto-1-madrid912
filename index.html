@@ -48,22 +48,63 @@
                 >
               </li>
               <li class="nav-item">
-                  <a class="text-white nav-link btn btn-success" href="#"
+                <a
+                  class="text-white nav-link btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  href="#"
                   >login</a
-                  >
-                  <li class="nav-item">
-                    <a class="text-white nav-link" href="#">Sobre Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="text-white nav-link" href="#">Suscribirse</a>
-                  </li>
-                </li>
+                >
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="#">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="#">Suscribirse</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Modal title
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
