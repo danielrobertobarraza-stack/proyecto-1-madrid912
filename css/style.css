@@ -1,12 +1,21 @@
 .fondonavbar {
-  background-color: #6bb498;
+  background-color: #000000;
 }
 .letras {
   color: rgb(0, 0, 0);
 }
+.btn-suscribirse{
+  border: 10px ;
+  border-radius: 10px;
+  background-color: #010202;
+  color: white;
+}
+.btn-suscribirse:hover{
+  background-color: #5dca6c ;
+}
 
 .footer {
-  background-color: #6bb498;
+  background-color: #000000;
   color: #010202;
   border: 1px solid #bbbbbb;
 }
@@ -92,6 +101,9 @@
 .footer-final {
   border-top: 1px solid #bbbbbb;
   background-color: #eeeeee;
+}
+.lista-redes{
+  list-style: none;
 }
 
 @media (max-width: 768px) {
