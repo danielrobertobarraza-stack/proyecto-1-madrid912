@@ -1,0 +1,38 @@
+.carousel-img {
+height: 80vh;
+min-height : 500px;
+max-height  : 600px;
+object-fit:cover;
+object-position : center;
+filter:brightness(50%);
+ }
+ .card-img{ 
+      height: auto;
+    min-height: 120px;
+    max-height: 200px;
+
+    object-fit: cover;
+    object-position:  center ;
+    filter:brightness(60%)
+}
+
+.Word-letter::first-letter{
+    font-size: 20px;
+}
+.img-card{   height: 50vh;
+    min-height: 120px;
+    max-height: 200px;
+
+    object-fit: cover;
+    object-position:  center  ;
+
+} 
+.img-cardbig{
+    height: 50vh;
+    min-height: 120px;
+    max-height: 200px;
+
+    object-fit: cover;
+    object-position:  center ;
+
+}
