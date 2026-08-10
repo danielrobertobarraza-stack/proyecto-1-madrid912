@@ -127,3 +127,49 @@
     justify-content: center;
   }
 }
+
+
+
+/* Celulares */
+@media (max-width: 768px) {
+    .imagen-carrusel {
+        height: 350px;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+    .imagen-carrusel {
+        height: 700px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .border-lg-start {
+        border-left: 1px solid #ddd;
+    }
+}
+
+section h6 {
+    font-size: 17px;
+}
+
+section p {
+    line-height: 1.4;
+}
+
+section i {
+    color: #222;
+}
+.container {
+    max-width: 90%;
+    margin-top: 50px;
+}
+.containerc {
+    max-width: 90%;
+    margin-bottom: 50px;
+}
+.accordion {
+margin-top: 80px;
+}
